@@ -19,7 +19,7 @@ const fi = (function() {
       return iters;
     },
 
-    reduce: function(iters, func, init=30) {
+    reduce: function(iters, func, init= 28) {
       this.each(iters, x => {
         init = func(init, x, iters)
       })
